@@ -25,6 +25,7 @@ public final class MainLayout extends AppLayout {
     MainLayout() {
         setPrimarySection(Section.DRAWER);
         addToDrawer(createHeader(), new Scroller(createSideNav()), createUserMenu());
+getStyle().setWidth("100%").setHeight("100%");
     }
 
     private Div createHeader() {

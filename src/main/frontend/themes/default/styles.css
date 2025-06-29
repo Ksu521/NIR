@@ -1,0 +1,37 @@
+/* Основные стили для приложения */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Цвет фона */
+}
+
+h1 {
+    color: #333; /* Цвет заголовков */
+}
+
+/* Стили для кнопок */
+.v-button {
+    background-color: #007bff; /* Цвет фона кнопок */
+    color: white; /* Цвет текста кнопок */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Скругление углов */
+    padding: 10px 20px; /* Отступы внутри кнопок */
+    cursor: pointer; /* Курсор при наведении */
+}
+
+.v-button:hover {
+    background-color: #0056b3; /* Цвет кнопки при наведении */
+}
+
+/* Стили для выпадающего меню */
+.v-combobox {
+    width: 200px; /* Ширина выпадающего меню */
+}
+
+/* Стили для заголовка */
+.v-header {
+    background-color: #333; /* Цвет фона заголовка */
+    color: white; /* Цвет текста заголовка */
+    padding: 10px; /* Отступы */
+}
